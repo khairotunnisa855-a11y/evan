@@ -1,0 +1,485 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Islamic Golden Age</title>
+
+    <style>
+        body {
+            background-color: #f5efe3;
+            font-family: Georgia, serif;
+            color: #3e2723;
+        }
+
+        header {
+            background-color: #5d4037;
+            text-align: center;
+            padding: 5px;
+            border-bottom: 3px solid #c9a227;
+        }
+
+        h1 {
+            color: #f5deb3;
+            text-shadow: 2px 2px 5px #c9a227;
+        }
+
+        h2 {
+            color: #795548;
+        }
+
+        h3 {
+            color: #8d6e63;
+        }
+
+        a {
+            color: #795548;
+            text-decoration: none;
+        }
+
+        a:hover {
+            color: #b8860b;
+            text-decoration: underline;
+        }
+
+        p {
+            color: #4e342e;
+            line-height: 1.8;
+            text-align: justify;
+        }
+
+        hr {
+            border: none;
+            height: 2px;
+            background-color: #b8860b;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            border: 3px solid #b8860b;
+            box-shadow: 0 0 8px #c9a227;
+        }
+
+        /* SLIDESHOW */
+
+        .slider {
+            position: relative;
+            width: 100%;
+            max-width: 600px;
+            height: 350px;
+            margin: auto;
+            overflow: hidden;
+            border: 3px solid #b8860b;
+            box-shadow: 0 0 8px #c9a227;
+        }
+
+        .slider input {
+            display: none;
+        }
+
+        .slides {
+            display: flex;
+            width: 300%;
+            height: 100%;
+            transition: transform 0.4s ease;
+        }
+
+        .slides img {
+            width: 33.3333%;
+            max-width: none;
+            height: 100%;
+            object-fit: contain;
+            flex-shrink: 0;
+            border: none;
+            box-shadow: none;
+        }
+         /* PERPINDAHAN FOTO */
+
+        #foto1:checked ~ .slides {
+            transform: translateX(0);
+        }
+
+        #foto2:checked ~ .slides {
+            transform: translateX(-33.3333%);
+        }
+
+        #foto3:checked ~ .slides {
+            transform: translateX(-66.6666%);
+        }
+
+        /* NAVIGASI SLIDESHOW */
+
+        .navigation {
+            position: absolute;
+            bottom: 12px;
+            left: 0;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            gap: 12px;
+        }
+
+        .navigation label {
+            width: 13px;
+            height: 13px;
+            background-color: #c9a227;
+            border-radius: 50%;
+            cursor: pointer;
+            border: 2px solid white;
+        }
+
+        #foto1:checked ~ .navigation label:nth-child(1),
+        #foto2:checked ~ .navigation label:nth-child(2),
+        #foto3:checked ~ .navigation label:nth-child(3) {
+            background-color: #5d4037;
+        }
+
+
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>
+            ISLAMIC GOLDEN AGE
+        </h1>
+
+        <p style="color: #f5deb3; text-align: center; font-style: italic;">
+            ZAMAN KEEMASAN PERADABAN ISLAM
+        </p>
+    </header>
+
+    <br>
+
+    <!-- SLIDESHOW FOTO PERTAMA -->
+
+    <div class="slider">
+
+        <input type="radio" name="slide" id="foto1" checked>
+        <input type="radio" name="slide" id="foto2">
+        <input type="radio" name="slide" id="foto3">
+
+        <div class="slides">
+
+            <img src="sejarah.jpg" alt="Foto 1">
+
+            <img src="sejarah2.jpg" alt="Foto 2">
+
+            <img src="sejarah3.jpg" alt="Foto 3">
+
+        </div>
+
+        <div class="navigation">
+            <label for="foto1"></label>
+            <label for="foto2"></label>
+            <label for="foto3"></label>
+        </div>
+
+    </div>
+
+    <br>
+
+    <a href="index.html">Home</a> |
+    <a href="#pengertian">Pengertian</a> |
+    <a href="#sejarah">Sejarah</a> |
+    <a href="#tokoh">Tokoh</a> |
+    <a href="#pengaruh">Pengaruh</a> |
+    <a href="contact.html">Contact</a> |
+    <a href="about.html">About</a>
+
+    <hr>
+
+    <h2 id="pengertian">1. Pengertian Islamic Golden Age</h2>
+
+    <p>
+        Islamic Golden Age atau Zaman Keemasan Islam merupakan periode
+        ketika peradaban Islam mengalami perkembangan pesat dalam bidang
+        ilmu pengetahuan, matematika, kedokteran, astronomi, filsafat,
+        sastra, dan kebudayaan. Periode ini umumnya dikaitkan dengan
+        abad ke-8 hingga abad ke-13 Masehi, meskipun perkembangan ilmu
+        pengetahuan di dunia Islam berlanjut setelahnya.
+    </p>
+
+    <p>
+        Pada masa ini, berbagai kota di dunia Islam menjadi pusat
+        pembelajaran. Para ilmuwan mempelajari karya dari berbagai
+        peradaban, melakukan penelitian, dan mengembangkan pengetahuan
+        yang memberikan pengaruh terhadap perkembangan ilmu pengetahuan
+        dunia.
+    </p>
+
+    <hr>
+
+    <h2 id="sejarah">2. Sejarah Islamic Golden Age</h2>
+
+    <h3>A. Dinasti Umayyah</h3>
+
+    <p>
+        Dinasti Umayyah berkuasa pada tahun 661 hingga 750 Masehi.
+        Pada masa ini, wilayah kekuasaan Islam berkembang luas.
+        Hubungan dengan berbagai bangsa memperkenalkan masyarakat
+        Islam kepada beragam kebudayaan dan pengetahuan.
+    </p>
+
+    <h3>B. Dinasti Abbasiyah</h3>
+
+    <p>
+        Dinasti Abbasiyah mulai berkuasa pada tahun 750 Masehi.
+        Baghdad menjadi salah satu pusat pemerintahan, perdagangan,
+        pendidikan, dan ilmu pengetahuan yang penting.
+    </p>
+
+    <p>
+        Pada masa Khalifah Harun al-Rasyid dan al-Ma'mun, kegiatan
+        keilmuan dan penerjemahan memperoleh dukungan. Berbagai karya
+        dari bahasa Yunani, Persia, dan Sanskerta dipelajari serta
+        diterjemahkan ke dalam bahasa Arab.
+    </p>
+
+    <h3>C. Pusat Peradaban Islam</h3>
+
+    <p>
+        Selain Baghdad, kota-kota seperti Kairo, Damaskus, Bukhara,
+        Samarkand, dan Kordoba juga menjadi pusat perkembangan ilmu
+        pengetahuan, perdagangan, seni, dan kebudayaan.
+    </p>
+
+    <hr>
+
+    <h2>3. Perkembangan Ilmu Pengetahuan</h2>
+
+    <h3>A. Matematika</h3>
+
+    <p>
+        Matematika berkembang melalui kajian aljabar, aritmetika,
+        dan metode perhitungan. Salah satu ilmuwan penting adalah
+        Al-Khawarizmi yang memberikan kontribusi besar terhadap
+        perkembangan aljabar. Istilah algoritma juga berasal dari
+        bentuk Latin namanya.
+    </p>
+
+    <h3>B. Kedokteran</h3>
+
+    <p>
+        Ilmu kedokteran berkembang melalui penelitian penyakit,
+        pengobatan, dan penyusunan buku medis. Ibnu Sina menulis
+        Al-Qanun fi al-Tibb, sebuah karya kedokteran yang pernah
+        menjadi rujukan penting dalam pendidikan medis.
+    </p>
+
+    <p>
+        Al-Razi juga dikenal sebagai dokter dan ilmuwan yang
+        menghasilkan karya penting dalam bidang kedokteran.
+    </p>
+
+    <h3>C. Astronomi</h3>
+
+    <p>
+        Astronomi berkembang melalui pengamatan benda langit,
+        perhitungan posisi planet, dan penyusunan tabel astronomi.
+        Pengetahuan ini membantu penanggalan, navigasi, dan
+        penentuan waktu.
+    </p>
+
+    <p>
+        Al-Battani merupakan salah satu ilmuwan yang terkenal
+        karena penelitian dan perhitungan astronominya.
+    </p>
+
+    <h3>D. Filsafat</h3>
+
+    <p>
+        Filsafat berkembang melalui kajian logika, etika, dan
+        pemikiran tentang manusia serta alam semesta. Tokoh penting
+        dalam bidang ini antara lain Al-Farabi, Ibnu Sina, dan
+        Ibnu Rusyd.
+    </p>
+
+    <h3>E. Kimia</h3>
+
+    <p>
+        Kajian kimia berkembang melalui pengamatan bahan dan
+        berbagai teknik eksperimen. Tradisi ilmu kimia dalam
+        literatur Arab dikaitkan dengan sejumlah ilmuwan,
+        termasuk Jabir ibn Hayyan.
+    </p>
+
+    <h3>F. Geografi</h3>
+
+    <p>
+        Ilmu geografi berkembang karena perjalanan dan perdagangan.
+        Para ilmuwan menulis deskripsi wilayah, menyusun peta,
+        serta mempelajari keadaan alam dan masyarakat.
+        Al-Idrisi merupakan salah satu tokoh penting dalam
+        sejarah geografi.
+    </p>
+
+    <hr>
+
+    <h2 id="tokoh">4. Tokoh-Tokoh Islamic Golden Age</h2>
+
+    <h3>1. Al-Khawarizmi</h3>
+
+    <p>
+        Al-Khawarizmi adalah ilmuwan matematika yang terkenal
+        karena kontribusinya dalam perkembangan aljabar dan
+        metode perhitungan.
+    </p>
+
+    <h3>2. Ibnu Sina</h3>
+
+    <p>
+        Ibnu Sina merupakan seorang dokter dan filsuf.
+        Karyanya yang terkenal adalah Al-Qanun fi al-Tibb,
+        yang membahas berbagai pengetahuan kedokteran.
+    </p>
+
+    <h3>3. Al-Razi</h3>
+
+    <p>
+        Al-Razi adalah dokter dan ilmuwan yang dikenal melalui
+        karya-karya medis serta pengamatan klinisnya.
+    </p>
+
+    <h3>4. Al-Battani</h3>
+
+    <p>
+        Al-Battani memberikan kontribusi dalam bidang astronomi,
+        terutama melalui pengamatan dan perhitungan benda langit.
+    </p>
+
+    <h3>5. Al-Farabi</h3>
+
+    <p>
+        Al-Farabi merupakan filsuf yang memberikan kontribusi
+        terhadap perkembangan logika, filsafat, dan pemikiran politik.
+    </p>
+
+    <h3>6. Ibnu Rusyd</h3>
+
+    <p>
+        Ibnu Rusyd dikenal melalui karya filsafat, hukum,
+        dan penjelasannya terhadap pemikiran Aristoteles.
+    </p>
+
+    <h3>7. Al-Biruni</h3>
+
+    <p>
+        Al-Biruni adalah ilmuwan yang mempelajari astronomi,
+        matematika, geografi, dan berbagai kebudayaan.
+    </p>
+
+    <hr>
+
+    <h2>5. Baitul Hikmah</h2>
+
+    <center>
+        <img src="baitul hikmah.jpg"
+             alt="Ilustrasi Baitul Hikmah"
+             width="400">
+    </center>
+
+    <p>
+        Baitul Hikmah merupakan lembaga yang berkaitan dengan
+        kegiatan keilmuan di Baghdad pada masa Dinasti Abbasiyah.
+        Baghdad berkembang menjadi pusat penting bagi penerjemahan,
+        pengumpulan naskah, dan pertukaran pengetahuan.
+    </p>
+
+    <p>
+        Karya-karya dari berbagai peradaban diterjemahkan dan
+        dipelajari oleh para sarjana. Mereka tidak hanya menerjemahkan,
+        tetapi juga mengembangkan gagasan dan pengetahuan baru.
+    </p>
+
+    <hr>
+
+    <h2>6. Faktor-Faktor Kemajuan</h2>
+
+    <p>
+        Beberapa faktor yang mendorong kemajuan peradaban Islam
+        pada masa tersebut adalah:
+    </p>
+
+    <p>
+        1. Dukungan penguasa terhadap pendidikan dan ilmu pengetahuan.
+        <br>
+        2. Berkembangnya perdagangan internasional.
+        <br>
+        3. Kegiatan penerjemahan karya dari berbagai peradaban.
+        <br>
+        4. Berkembangnya perpustakaan dan pusat pembelajaran.
+        <br>
+        5. Pertukaran ilmu dan kebudayaan antarbangsa.
+        <br>
+        6. Kontribusi para ilmuwan dalam berbagai bidang.
+    </p>
+
+    <hr>
+
+    <h2 id="pengaruh">7. Pengaruh Islamic Golden Age terhadap Dunia</h2>
+
+    <p>
+        Karya para ilmuwan di dunia Islam memberikan pengaruh
+        terhadap perkembangan ilmu pengetahuan di berbagai wilayah.
+        Sejumlah karya berbahasa Arab diterjemahkan ke bahasa Latin
+        dan dipelajari oleh para sarjana Eropa.
+    </p>
+
+    <p>
+        Pengetahuan dalam bidang matematika, kedokteran, astronomi,
+        dan filsafat menjadi bagian dari pertukaran ilmu antarperadaban.
+        Proses ini ikut berkontribusi terhadap perkembangan tradisi
+        ilmiah di berbagai wilayah dunia.
+    </p>
+
+    <hr>
+
+    <h2>8. Kemunduran dan Perubahan</h2>
+
+    <center>
+        <img src="kemunduran.jpg"
+             alt="mundur"
+             width="400">
+    </center>
+
+    <p>
+        Sejumlah pusat peradaban Islam mengalami perubahan akibat
+        konflik politik, persaingan kekuasaan, dan peperangan.
+        Salah satu peristiwa penting adalah penaklukan Baghdad oleh
+        pasukan Mongol pada tahun 1258 Masehi.
+    </p>
+
+    <p>
+        Peristiwa tersebut menyebabkan kerusakan besar di Baghdad.
+        Namun, perkembangan ilmu pengetahuan di dunia Islam tidak
+        berhenti sepenuhnya karena berbagai pusat keilmuan tetap
+        berkembang di wilayah lain.
+    </p>
+
+    <hr>
+
+    <h2>9. Peninggalan Islamic Golden Age</h2>
+
+    <p>
+        Peninggalan penting dari periode ini meliputi perkembangan
+        aljabar, karya-karya kedokteran, tabel astronomi, tulisan
+        filsafat, peta geografis, serta tradisi penerjemahan dan
+        penelitian.
+    </p>
+
+    <p>
+        Warisan tersebut menunjukkan bahwa ilmu pengetahuan dapat
+        berkembang melalui penelitian, diskusi, pendidikan,
+        dan pertukaran gagasan dari berbagai kebudayaan.
+    </p>
+
+    <hr>
+
+    <p style="text-align: center; font-style: italic;">
+        Copyright &copy; 2026 - By Evan
+    </p>
+
+</body>
+</html>
